@@ -76,7 +76,7 @@ export default function App() {
       setActiveTab('admin');
     } else {
       const pass = prompt('Yönetici Şifresi:');
-      if (pass === '1234') {
+      if (pass === '355400') {
         setIsAdminAuthenticated(true);
         setActiveTab('admin');
       } else if (pass !== null) {

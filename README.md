@@ -1,16 +1,30 @@
-# React + Vite
+# 🌐 Mustafa Ablak — Personal Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance, and responsive personal portfolio web application built with React, featuring an Apple-inspired Glassmorphism (Vibrancy) aesthetic and dynamic video background.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 **Website:** [https://mustafablak.vercel.app/](https://mustafablak.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack & Badges
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-Glassmorphism-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-Deployment-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+---
+
+## ✨ Key Features
+
+* **Glassmorphism UI:** Built with `backdrop-filter`, color saturation boosts (`saturate`), and depth-layered reflections.
+* **Seamless Video Background:** Performance-optimized, continuous loop background integration.
+* **Dark / Light Theme Engine:** Instant theme switching with readability-preserving backdrop filters.
+* **Single Page Application (SPA):** Tab-based navigation with smooth fade and spring scale transitions.
+* **Local Management Mode (Admin):** In-browser protected modal for dynamically adding and deleting showcase projects backed by `LocalStorage`.
+* **Fully Responsive:** Fluid layout fully compatible with mobile, tablet, and wide desktop displays.
