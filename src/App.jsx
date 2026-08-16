@@ -51,7 +51,7 @@ export default function App() {
   const [theme, setTheme] = useState(() => localStorage.getItem('site_theme') || 'dark');
   const [activeTab, setActiveTab] = useState('home');
   const [data, setData] = useState(() => {
-    const saved = localStorage.getItem('portfolio_data_v8');
+    const saved = localStorage.getItem('portfolio_data_v9');
     return saved ? JSON.parse(saved) : initialData;
   });
 
@@ -68,7 +68,7 @@ export default function App() {
   }, [theme]);
 
   useEffect(() => {
-    localStorage.setItem('portfolio_data_v8', JSON.stringify(data));
+    localStorage.setItem('portfolio_data_v9', JSON.stringify(data));
   }, [data]);
 
   const handleAdminAccess = () => {
