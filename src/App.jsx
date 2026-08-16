@@ -7,8 +7,8 @@ const initialData = {
   aboutExtended: {
     education: "Hasan Kalyoncu Üniversitesi — Bilgisayar Mühendisliği (Lisans)",
     experience: "Full-Stack Web & Mobile geliştirme, mikroservis mimarileri ve yapay zeka entegrasyonları üzerinde uygulamalı proje deneyimi.",
-    focus: "C# / .NET Core Web API, Flutter, FastAPI, Docker ve Modern React ekosistemi üzerinde kurumsal, ölçeklenebilir ve temiz mimarili projeler geliştirmeye odaklanıyorum.",
-    goals: "Büyük ölçekli veri akışları, dağıtık sistemler ve yapay zeka tabanlı servisleri modern mühendislik standartlarıyla hayata geçirmek."
+    focus: "C# / .NET Core Web API, Flutter, FastAPI, Docker, Python ve Modern React ekosistemi üzerinde kurumsal, ölçeklenebilir ve temiz mimarili projeler geliştirmeye odaklanıyorum.",
+    goals: "Büyük ölçekli veri akışları ve yapay zeka tabanlı servisleri modern mühendislik standartlarıyla hayata geçirmek."
   },
   skills: [
     { name: "React", category: "Frontend", level: "Orta Düzey" },
@@ -51,7 +51,7 @@ export default function App() {
   const [theme, setTheme] = useState(() => localStorage.getItem('site_theme') || 'dark');
   const [activeTab, setActiveTab] = useState('home');
   const [data, setData] = useState(() => {
-    const saved = localStorage.getItem('portfolio_data_v7');
+    const saved = localStorage.getItem('portfolio_data_v8');
     return saved ? JSON.parse(saved) : initialData;
   });
 
@@ -68,7 +68,7 @@ export default function App() {
   }, [theme]);
 
   useEffect(() => {
-    localStorage.setItem('portfolio_data_v7', JSON.stringify(data));
+    localStorage.setItem('portfolio_data_v8', JSON.stringify(data));
   }, [data]);
 
   const handleAdminAccess = () => {
@@ -194,7 +194,7 @@ export default function App() {
               className="action-btn-hover"
               style={{ flexShrink: 0, background: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)', border: `1px solid ${isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'}`, color: colors.titleColor, padding: '6px 12px', borderRadius: '100px', cursor: 'pointer', fontWeight: 600, fontSize: '0.8rem', whiteSpace: 'nowrap' }}
             >
-              {isDark ? '☀️' : '🌙'}
+              {isDark ? '☀️ Light' : '🌙 Dark'}
             </button>
 
             {isAdminAuthenticated && (
@@ -233,7 +233,7 @@ export default function App() {
                 <button onClick={() => setActiveTab('projects')} className="action-btn-hover" style={{ background: colors.titleColor, color: isDark ? '#000' : '#fff', border: 'none', padding: '14px 28px', borderRadius: '100px', fontWeight: 700, fontSize: '0.95rem', cursor: 'pointer', boxShadow: '0 10px 30px rgba(0,0,0,0.2)' }}>
                   Projelerimi İncele
                 </button>
-                <a href="https://github.com/mustafaablak" target="_blank" rel="noreferrer" className="action-btn-hover" style={{ background: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)', border: `1px solid ${isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'}`, color: colors.titleColor, padding: '14px 28px', borderRadius: '100px', textDecoration: 'none', fontWeight: 600, fontSize: '0.95rem', display: 'inline-flex', alignItems: 'center' }}>
+                <a href="https://github.com/mustafablak" target="_blank" rel="noreferrer" className="action-btn-hover" style={{ background: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)', border: `1px solid ${isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'}`, color: colors.titleColor, padding: '14px 28px', borderRadius: '100px', textDecoration: 'none', fontWeight: 600, fontSize: '0.95rem', display: 'inline-flex', alignItems: 'center' }}>
                   GitHub Profili ↗
                 </a>
               </div>
