@@ -44,3 +44,25 @@ html, body, #root {
 .action-btn-hover:active {
   transform: scale(0.95);
 }
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (max-width: 768px) {
+  .responsive-panel {
+    padding: 28px 20px !important;
+    border-radius: 24px !important;
+  }
+  .responsive-nav-container {
+    padding: 0 12px !important;
+    top: 10px !important;
+  }
+  .responsive-nav {
+    padding: 8px 12px !important;
+    gap: 8px !important;
+  }
+}
