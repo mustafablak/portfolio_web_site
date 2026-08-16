@@ -340,7 +340,7 @@ export default function App() {
                 <a href="https://www.linkedin.com/in/mustafa-ablak-565173299/" target="_blank" rel="noreferrer" className="card-hover" style={{ background: '#0a66c2', color: '#ffffff', padding: '16px 24px', borderRadius: '20px', textDecoration: 'none', fontWeight: 700, fontSize: '1rem', width: '100%' }}>
                   💼 LinkedIn Profilim
                 </a>
-                <a href="https://github.com/mustafaablak" target="_blank" rel="noreferrer" className="card-hover" style={{ background: colors.titleColor, color: isDark ? '#000' : '#fff', padding: '16px 24px', borderRadius: '20px', textDecoration: 'none', fontWeight: 700, fontSize: '1rem', width: '100%' }}>
+                <a href="https://github.com/mustafablak" target="_blank" rel="noreferrer" className="card-hover" style={{ background: colors.titleColor, color: isDark ? '#000' : '#fff', padding: '16px 24px', borderRadius: '20px', textDecoration: 'none', fontWeight: 700, fontSize: '1rem', width: '100%' }}>
                   🐙 GitHub Hesabım
                 </a>
               </div>
