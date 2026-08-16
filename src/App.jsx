@@ -28,21 +28,21 @@ const initialData = {
       title: "SmartCut — Randevu ve İşletme Yönetimi",
       desc: "Flutter ve .NET Core Web API mimarisiyle geliştirilmiş, salonlar ve randevu odaklı işletmeler için tam kapsamlı yönetim platformu.",
       tags: ["Flutter", ".NET Core", "MS SQL", "REST API"],
-      link: "https://github.com/mustafaablak"
+      link: "https://github.com/mustafablak/SmartCut-Appointment-App"
     },
     {
       id: 2,
       title: "AI Document Intelligence & OCR",
       desc: "FastAPI ve Google Gemini AI entegrasyonlu, makbuz ve faturalardan anlık yapılandırılmış JSON verisi çıkaran mikroservis.",
       tags: ["FastAPI", "Python", "Gemini AI", "Docker"],
-      link: "https://github.com/mustafaablak"
+      link: "https://github.com/mustafablak/gemini-ocr-fastapi"
     },
     {
       id: 3,
       title: "Pusula — AI Life Coach & Habit Tracker",
       desc: "Groq ve Llama 3.3 destekli, kişiselleştirilmiş alışkanlık takibi ve verimlilik asistanı sunan mobil uygulama.",
       tags: ["Flutter", "Dart", "Groq", "Llama 3.3"],
-      link: "https://github.com/mustafaablak"
+      link: "https://github.com/mustafablak/pusula-ai-life-coach-app"
     }
   ]
 };
